@@ -9,6 +9,8 @@ public class deneme {
         this.arrayList=arrayList;
         arrayList.add(2);
     }
+    //dddd
+  
     //deneme github
     //deneme intellij
     //pullsuz intellij
