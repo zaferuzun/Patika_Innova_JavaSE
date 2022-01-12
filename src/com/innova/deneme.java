@@ -17,6 +17,7 @@ public class deneme {
         return i;
     }
 
+    //pull
     public void setI(int i) {
         this.i = i;
     }
