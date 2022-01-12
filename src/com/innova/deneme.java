@@ -9,7 +9,7 @@ public class deneme {
         this.arrayList=arrayList;
         arrayList.add(2);
     }
-
+    //deneme github
     public int getI() {
         return i;
     }
