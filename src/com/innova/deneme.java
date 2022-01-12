@@ -12,6 +12,7 @@ public class deneme {
     //deneme github
     //deneme intellij
     //pullsuz intellij
+    //pullsuz commit
     public int getI() {
         return i;
     }
