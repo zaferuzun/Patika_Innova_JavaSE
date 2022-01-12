@@ -10,6 +10,7 @@ public class deneme {
         arrayList.add(2);
     }
     //deneme github
+    //deneme intellij
     public int getI() {
         return i;
     }

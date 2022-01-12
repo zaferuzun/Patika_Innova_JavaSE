@@ -7,7 +7,7 @@ public class HelloWorld {
 
     public static void main(String[] args) {
 
- /*       System.out.println("Zafer UZUN");
+        System.out.println("Zafer UZUN");
         int i =0;
         AtomicInteger atomicInteger= new AtomicInteger(0);
         Integer integer = new Integer(0);
@@ -22,16 +22,16 @@ public class HelloWorld {
                 +"denemeObj fonk çalıştı ve integer1 degeri= "+integer+"\n"
                 +"denemeArrList fonk çalıştı ve arraylist degeri= "+arrayList.size());
         i= denemePri2(i);
-        System.out.println("denemePri2 Fonk çalıştı ve i deger = "+i);*/
+        System.out.println("denemePri2 Fonk çalıştı ve i deger = "+i);
 
-        ArrayList arrayList1= new ArrayList();
-        deneme d =new deneme(arrayList1);
-/*        System.out.println("cons sonrası arraylist size: " +d.arrayList.size());
-        d.denemeInsert();
-        System.out.println("arraylist insert edildikten sonra ki size: "+ d.arrayList.size());
-        d.denemeNew();
-        System.out.println("arraylist newlendikten sonra ki size: "+ d.arrayList.size());*/
-        d.arrTry();
+//        ArrayList arrayList1= new ArrayList();
+//        deneme d =new deneme(arrayList1);
+//        System.out.println("cons sonrası arraylist size: " +d.arrayList.size());
+//        d.denemeInsert();
+//        System.out.println("arraylist insert edildikten sonra ki size: "+ d.arrayList.size());
+//        d.denemeNew();
+//        System.out.println("arraylist newlendikten sonra ki size: "+ d.arrayList.size());
+//        d.arrTry();
 
     }
 
@@ -42,7 +42,7 @@ public class HelloWorld {
 
     public static void denemeObj(Integer integer)
     {
-        integer=5;
+        integer.inc(integer);
     }
     public static void denemeAtomicObj(AtomicInteger integer)
     {
